@@ -10,8 +10,8 @@ void setup()
 void loop()
 {
   // Forward 
-  analogWrite(pinF, 100);
-  digitalWRite(pinR, LOW);
+  digitalWrite(pinF, HIGH);
+  digitalWrite(pinR, LOW);
   delay(1000);
 
   // Stop
@@ -21,7 +21,7 @@ void loop()
 
   // Backward
   digitalWrite(pinF, LOW);
-  analogWrite(pinR, 200);
+  digitalWrite(pinR, HIGH);
   delay(1000);
   
   // Break
