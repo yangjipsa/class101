@@ -1,5 +1,5 @@
-int led1 = 2;
-int led2 = 3;
+int led1 = 3;
+int led2 = 2;
 
 void setup()
 {
