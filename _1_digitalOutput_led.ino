@@ -1,3 +1,4 @@
+// Digital In/Out [2]
 int led1 = 3;
 int led2 = 2;
 
