@@ -1,3 +1,4 @@
+//Digital In/Out [1]
 int sw1 = 7;
 int sw2 = 4;
 
