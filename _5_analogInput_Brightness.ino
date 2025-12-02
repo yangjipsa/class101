@@ -1,3 +1,4 @@
+//Analog Input [1]
 int Brightness = 0;
 
 void setup()
