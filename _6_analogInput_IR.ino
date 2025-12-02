@@ -1,4 +1,5 @@
-int ir = 1;
+//Analog Input [2]
+int ir = 0;
 
 void setup()
 {
