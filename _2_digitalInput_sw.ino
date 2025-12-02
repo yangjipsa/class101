@@ -1,5 +1,5 @@
-int sw1 = 4;
-int sw2 = 5;
+int sw1 = 7;
+int sw2 = 4;
 
 void setup()
 {
@@ -11,7 +11,7 @@ void setup()
 void loop()
 {
   int val_sw1 = digitalRead(sw1);
-  int val_Sw2 = digitalRead(sw2);
+  int val_sw2 = digitalRead(sw2);
 
   Serial.print(val_sw1);
   Serial.print(" | ");
