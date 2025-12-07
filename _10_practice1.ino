@@ -1,21 +1,23 @@
+// LED : Active LOW
+
 int led1 = 5;
 int led2 = 6;
 int Brightness = A0;
-int PWM_MAX = 255;
+int MAX_PWM = 255;
 
-void setup() 
+void setup()
 {
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   int valBrightness = analogRead(Brightness);
-  Serial.println(valBrightness);
-  delay(50);
-  // Range of valBrightness : 0 ~ 1023 (1024 = 2^10)
-  // Range of pwm value : 0 ~ 255      ( 256 = 2^8 )
-  int valPWM = PWM_MAX - valBrightness/4; // 2^2
+  int valPWM = MAX_PWM - valBrightness/4;
+  // 주변이 밝으면 LED는 어두워지고
+  // 주변이 어두워지면 LED는 밝아지는 동작
   analogWrite(led1, valPWM);
   analogWrite(led2, valPWM);
+  
+  delay(100);
 }
