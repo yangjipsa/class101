@@ -1,8 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
-int rgbLED = 3;
-int sw1 = 7;
-int sw2 = 4;
+int rgbLED = 7;
+int sw1 = 2;
+int sw2 = 3;
 
 int numLEDs = 4;
 bool POWER = false;
