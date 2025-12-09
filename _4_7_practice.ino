@@ -1,3 +1,5 @@
+// Switch(Pull-Down) : D2, D3
+// RGB LED : D7
 #include <Adafruit_NeoPixel.h>
 
 int rgbLED = 7;
