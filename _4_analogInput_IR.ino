@@ -1,5 +1,5 @@
 //Analog Input [2]
-int ir = 0;
+int ir = A2;
 
 void setup()
 {
